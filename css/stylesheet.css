@@ -1,0 +1,704 @@
+
+
+/*Global style*/
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: 'Montserrat';
+}
+
+a {
+ text-decoration: none;
+}
+
+ul {
+ padding: 0;
+ margin: 0;
+}
+
+.gallary img {
+ width: 100%;
+}
+
+hi {
+	color: #0FCAC3;
+}
+
+
+/*Header Area*/
+
+header {
+ background-image: url('../IMG/main-bg-img.jpg');
+ background-size: 100%;
+ overflow: hidden;
+ padding-top: 40px;
+ padding-bottom: 200px;
+ width: 100%;
+ transition:all 1s ease-in-out;
+}
+
+header:hover {
+ transform: scale(1.09);
+}
+
+.menu-icon {
+ display: inline-block;
+}
+
+.menu-icon i {
+ font-size: 50px;
+ color: white;
+ display: inline-block;
+ display: none;
+ padding: 15px 20px;
+ cursor: pointer;
+}
+
+.right a {
+ display: inline-block;
+ margin-left: 60px;
+}
+
+.header-area .left:hover ul {
+ display: block;
+}
+
+.header-area {
+ max-width: 1280px;
+ margin: auto;
+ overflow: hidden;
+}
+
+header .left ul li a.bad {
+ color: #10C9C3;
+}
+
+.right {
+ width: 20%;
+ float: left;
+ margin-top: 10px;
+}
+
+.left {
+ float: right;
+ text-align: right;
+}
+
+.left ul li {
+ list-style: none;
+ display: inline-block;
+ border-right: .5px solid black;
+ padding-right: 18px;
+ padding-top: 10px;
+ margin-right: 15px;
+}
+
+.header-area .last-li {
+ border: none;
+}
+
+.left ul li a {
+ color: #191919;
+ font-size: 16px;
+}
+
+.left ul li a:hover {
+ color: #10C9C3;
+
+}
+
+.text {
+ width: 49%;
+ float: right;
+ margin-top: 90px;
+}
+
+.text1 {
+ color: #1d1d1d;
+ font-size: 20px;
+}
+
+.para p {
+ color: #554a4a;
+ line-height: 1.5;
+ font-family: 'Nunito Sans';
+ font-size: 17px;
+}
+
+.link {
+ margin-top: 40px;
+}
+
+.link a {
+ background-color: #10C9C3;
+ border: 1px solid transparent;
+ padding: 12px 35px;
+ color: white;
+ font-size: 13px;
+ transition: .6s;
+ display: inline-block;
+}
+
+.link a:hover {
+ background-color: white;
+ transition: .5s;
+ color: black;
+}
+
+
+/* about section */
+
+section {
+ max-width: 100%;
+ overflow: hidden;
+}
+
+.about-us {
+ text-align: center;
+ margin: 80px 0;
+}
+
+.head h2 {
+ font-size: 32px;
+ padding: 20px 0;
+}
+
+.sometext p {
+ line-height: 1.5;
+ font-size: 17px;
+ font-family: 'Nunito Sans';
+ color: #554a4a;
+ padding-bottom: 25px;
+}
+
+
+/* Skil area */
+
+.working-exprience {
+ max-width: 100%;
+ overflow: hidden;
+}
+
+.left-side {
+ width: 50%;
+ float: left;
+ overflow: hidden;
+ background-color: #F7FBFA;
+ padding-bottom: 80px;
+}
+
+.skil {
+ margin-top: 70px;
+ font-size: 22px;
+}
+
+.skil-name {
+ font-size: 18px;
+ margin-top: 40px;
+ text-transform: uppercase;
+}
+
+.working-bar {
+ width: 70%;
+ margin: auto;
+}
+
+.right-side {
+ width: 50%;
+ float: left;
+}
+
+.progress-bar {
+ width: 100%;
+ height: 4px;
+ background-color: #D8D8D8;
+}
+
+.bar-one {
+ width: 75%;
+ height: 4px;
+ background-color: #1FC3B7;
+}
+
+.bar-two {
+ width: 90%;
+ height: 4px;
+ background-color: #1FC3B7;
+}
+
+.bar-three {
+ width: 65%;
+ height: 4px;
+ background-color: #1FC3B7;
+}
+
+.right-side {
+ position:relative;
+}
+.right-side img {
+ width: 100%;
+ display: block;
+ transition: all 2s ;
+}
+
+.right-side img:hover {
+ transform: scale(1.2);
+}
+
+.right-side .right-img:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: 'We Design And Develop';
+	text-align: center;
+	color: #f2f2f2;
+	line-height: 20;
+	font-weight: 600;
+	text-transform: capitalize;
+	width: 0;
+	height:100%;
+	background-image:url( '../IMG/bg-seven-img.jpg');
+	background-position: center;
+	background-size: cover;
+	z-index: 1;
+	transition: .9s;
+	cursor: pointer;
+}
+.right-side:hover .right-img:before{
+ width: 50%;
+}
+
+.right-side .right-img:after {
+	position: absolute;
+    right: 0;
+    top: 0;
+    content: ' We Are marketing agency ';
+    text-align: center;
+    color: #f2f2f2;
+    line-height: 20;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 0;
+    height:100%;
+    background-image:url( '../IMG/bg-two-img.jpg');
+    background-position: right;
+    background-size: cover;
+    z-index: 1;
+    transition: .9s;
+    cursor: pointer;
+}
+.right-side:hover .right-img:after{
+width: 50%;
+}
+
+
+/* Icon Section */
+
+.icon-section {
+ max-width: 100%;
+ overflow: hidden;
+ background-color: #1FC3B7;
+}
+
+.icon-area {
+ width: 80%;
+ margin: auto;
+ overflow: hidden;
+}
+
+.feedback {
+ width: 25%;
+ float: left;
+ margin: 100px 0;
+}
+
+.icon {
+ width: 25%;
+ float: left;
+ margin-top: 7px;
+}
+
+.text-one {
+ line-height: 1.4;
+ color: #ddffff;
+ text-transform: uppercase;
+}
+
+.text-one strong {
+ font-size: 18px;
+}
+
+.text-one .active {
+ font-size: 12px;
+ font-weight: 600;
+ word-spacing: 4px;
+}
+
+
+  /* Gallary Section */
+
+.gallary-section {
+ width: 100%;
+ overflow: hidden;
+}
+
+.gallary-pic:nth-child( 7 ) .one-more{
+ height: 250px;
+}
+
+ .gallary-pic:nth-child( 8 ) .more{
+ height: 220px;
+} 
+
+.gallary-pic {
+ width: 25%;
+ float: left;
+ max-height: 213px;
+ position: relative;
+}
+
+ .bg-icon {
+ width: 100%;
+ height: 100%;
+ background-color: rgb(220, 216, 230);
+ opacity: .6;
+ position: absolute;
+ top: 0;
+ right: 0;
+ transform: translatex(100%);
+ transition: .7s;
+}
+
+.gallary-pic:hover .bg-icon{
+ transform: translatex(0);
+ transition: 0.9s
+}
+
+.bg-icons {
+ width: 100%;
+ height: 100%;
+ background-color: rgb(220, 216, 230);
+ opacity: .6;
+ position: absolute;
+ top: 0;
+ right: 0;
+ transform: translatey(100%);
+ transition: .7s;
+}
+
+.gallary-pic:hover .bg-icons {
+ transform: translatey(0);
+ transition: 0.9s
+}
+
+.bg-icon img {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: auto;
+}
+
+
+/* working-button area */
+
+.work-button input {
+ width: 100%;
+ overflow: hidden;
+ padding: 40px;
+ background: #F5F5F5;
+ color: #979797;
+ font-size: 16px;
+ border: 0;
+ word-spacing: 5px;
+ cursor: pointer;
+}
+
+
+/* working area */
+
+.work-section {
+ max-width: 100%;
+ overflow: hidden;
+}
+
+.main-work {
+ max-width: 1100px;
+ margin: auto;
+ text-align: center;
+}
+
+.work-section .work {
+ margin-top: 90px;
+ font-size: 20px;
+}
+
+.work-section .work-two {
+ margin-bottom: 40px;
+ color: #979797;
+ font-size: 15px;
+ font-family: 'Nunito Sans';
+ word-spacing: 3px;
+ line-height: 1.4;
+}
+
+.work-section .video {
+ margin-bottom: 100px;
+ margin-top: 20px;
+}
+
+.video video {
+ width: 1100px;
+ max-height: 100%;
+}
+
+
+/* Category-section */
+
+.category-area {
+ overflow: hidden;
+ padding-top: 100px;
+ padding-bottom: 35px;
+ background-color: #f5f5f5;
+}
+
+.category-area .category {
+ max-width: 1100px;
+ margin: auto;
+}
+
+.category .item {
+ width: 25%;
+ float: left;
+ margin-bottom: 50px;
+ text-align: center;
+}
+
+.category .item:nth-child( 4n+1) {
+ clear: both;
+}
+
+.item p {
+ line-height: 1.5;
+ color: #979797;
+ font-family: 'Nunito Sans';
+ font-size: 16px;
+}
+
+.item h5 {
+ font-size: 14px;
+ color: #444444;
+}
+
+
+/* happy momment */
+
+.momment {
+ overflow: hidden;
+ background-color: #10C9C3;
+ color: white;
+ text-align: center;
+ padding: 100px 0;
+}
+
+.happy-text {
+ font-size: 30px;
+ line-height: 1.6;
+}
+
+.momment .round {
+ width: 8px;
+ height: 8px;
+ margin: auto;
+ background-color: #D8D8D8;
+ margin-top: 120px;
+ margin-right: 5px;
+ margin-left: 5px;
+ border-radius: 50%;
+}
+
+.round,
+.round-bold {
+ display: inline-block;
+}
+
+.momment .round-bold {
+ width: 15px;
+ height: 15px;
+ margin: auto;
+ background-color: white;
+ margin-top: 30px;
+ border-radius: 50%;
+}
+
+
+/* stikker-are */
+
+.stiker {
+ overflow: hidden;
+ padding: 50px 0;
+ margin-left: 150px;
+}
+
+.stiker .stiker-pic {
+ width: 20%;
+ float: left;
+}
+
+
+/* ragistration-area */
+
+.registration {
+ overflow: hidden;
+ padding: 80px 0;
+ background-color: #F5F5F5;
+}
+
+.ragistar-text h1 {
+ font-size: 30px;
+}
+
+.ragistar-text p {
+ font-size: 17px;
+ line-height: 1.5;
+ font-family: 'Nunito Sans';
+ margin-bottom: 40px;
+ color: #979797;
+}
+
+.registration .ragistar {
+ width: 50%;
+ text-align: center;
+ margin: auto;
+}
+
+.ragistar input {
+ border: none;
+ font-size: 15px;
+ margin-bottom: 20px;
+}
+
+.name-input {
+ width: 50%;
+ padding-right: 15px;
+ box-sizing: border-box;
+ float: left;
+}
+
+.name-input input {
+ width: 100%;
+ text-indent: 16px;
+ padding: 15px 0;
+}
+
+.email-input input {
+ width: 100%;
+ text-indent: 16px;
+ padding: 15px 0;
+}
+
+.email-input {
+ width: 50%;
+ padding-left: 15px;
+ box-sizing: border-box;
+ float: left;
+}
+
+.title-input {
+ width: 100%;
+}
+
+.title-input input {
+ width: 100%;
+ text-indent: 16px;
+ padding: 15px 0;
+}
+
+.ragistar textarea {
+ width: 647px;
+ margin-bottom: 20px;
+ padding: 15px;
+ border: none;
+ height: 133px;
+}
+
+.ragistar-button input {
+ background-color: #0FCAC3;
+ padding: 15px 20px;
+ font-size: 14px;
+ cursor: pointer;
+ font-weight: 600;
+ color: white;
+}
+
+
+/*Footer Section*/
+
+footer {
+ max-width: 100%;
+ background-color: #141414;
+ overflow: hidden;
+ color: #A2A2A2;
+ padding-top: 70px;
+ padding-bottom: 60px;
+}
+
+.footer-area {
+ max-width: 1150px;
+ margin: auto;
+}
+
+.footer-one {
+	color: white;
+}
+
+.first {
+ width: 40%;
+ line-height: 1.7;
+ float: left;
+}
+
+.second {
+ width: 25%;
+ line-height: 1.5;
+ float: left;
+ margin-top: 20px;
+}
+
+
+/*List area*/
+
+.list ul li {
+ list-style: none;
+ line-height: 1.5;
+}
+
+.list ul li a {
+ color: #A2A2A2;
+}
+
+.list {
+ float:left;
+}
+
+.list ul li:hover a {
+ color:white
+}
+
+.first-list {
+ float: left;
+ margin-left:30px;
+ margin-right:50px;
+}
+
+.second-list {
+ float: left;
+ margin-right:40px;
+}
+
+.third-list {
+ float: left;
+ margin-left: 45px;
+}
+
